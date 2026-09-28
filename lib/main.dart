@@ -41,8 +41,16 @@ void main() {
             ),
           ),
           child: Center(
-            child: Text(
-              "Привет! Меня зовут Настяяя. Я студентка группы ИСП-241!!!",
+            child: Column(
+              children: [
+                Text(
+                  "Привет! Меня зовут Настяяя. Я студентка группы ИСП-241!!!",
+                ),
+                Image.network(
+                  'https://img.magnific.com/free-photo/view-beautiful-persian-domestic-cat_23-2151773820.jpg?semt=ais_hybrid&w=740&q=80',
+                  width: 300,
+                ),
+              ],
             ),
           ),
         ),
