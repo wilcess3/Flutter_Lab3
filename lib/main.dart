@@ -8,19 +8,15 @@ void main() {
         body: Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
-              colors: [Colors.white, Colors.blue, Colors.red],
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
+              colors: [
+                Colors.white,
+                Colors.blue,
+                Colors.red,
+              ],
             ),
           ),
           child: Center(
-            child: Text(
-              'Hello World!',
-              style: TextStyle(
-                fontSize: 32,
-                color: Colors.cyanAccent,
-              ),
-            ),
+            child: Text("Hello world!"),
           ),
         ),
       ),
